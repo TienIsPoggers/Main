@@ -1,0 +1,8 @@
+{
+    "--primary-color":"#2C3E50",
+    "--secondary-color":"#2980B9",
+    "--accent-color":"#E74C3C",
+    "--gap":"0.5rem",
+    "--border-radius":"0.5rem",
+    "--transition-time":"600ms"
+}

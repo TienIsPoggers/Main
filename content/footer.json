@@ -1,0 +1,46 @@
+{
+    "link-1":{
+        "type":"text",
+        "textContent":"Home",
+        "attrs":{
+            "href":"/",
+            "title":"Go to Home page"
+        }
+    },
+    "link-2":{
+        "type":"text",
+        "textContent":"About",
+        "attrs":{
+            "href":"/about",
+            "title":"Go to Home page"
+        }
+    },
+    "link-3":{
+        "type":"text",
+        "textContent":"Service",
+        "attrs":{
+            "href":"/service",
+            "title":"Go to Home page"
+        }
+    },
+    "link-4":{
+        "type":"text",
+        "textContent":"Projects",
+        "attrs":{
+            "href":"/projects",
+            "title":"Go to Home page"
+        }
+    },
+    "link-5":{
+        "type":"text",
+        "textContent":"Contact",
+        "attrs":{
+            "href":"/contact",
+            "title":"Go to Home page"
+        }
+    },
+    "copy-text":{
+        "type":"text",
+        "textContent":"&copy; 2025 Your Company. All rights reserved."
+    }
+}

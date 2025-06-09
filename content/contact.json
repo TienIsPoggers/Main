@@ -1,0 +1,24 @@
+{
+    "main-header":{
+        "type":"text",
+        "textContent":"Contact Page",
+        "attrs":{
+            "id":"Main_Page",
+            "class":"white-text"
+        }
+    },
+    "main-paragraph":{
+        "type":"text",
+        "textContent":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur maiores nihil voluptatem libero! Excepturi, exercitationem.",
+        "attrs":{
+            "class":"white-text f-bold"
+        }  
+        
+    },
+    "main-background":{
+        "type":"none",
+        "attrs":{
+            "class":"primary-background"
+        }
+    }
+}
