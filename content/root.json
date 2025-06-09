@@ -4,5 +4,7 @@
     "--accent-color":"#E74C3C",
     "--gap":"0.5rem",
     "--border-radius":"0.5rem",
-    "--transition-time":"600ms"
+    "--transition-time":"600ms",
+    "--primary-font": "Roboto",
+    "--secondary-font": "Lato"
 }

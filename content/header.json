@@ -1,9 +1,24 @@
 {
+    "header-logo":{
+        "type":"text",
+        "textContent":"Demo",
+        "attrs":{
+            "class":"primary-font"
+        }
+    },
+    "header-logo-link":{
+        "type":"none",
+        "attrs":{
+            "href":"/",
+            "class":"text-decoration-none primary-text secondary-text-h",
+            "title":"Go to Home Page"
+        }
+    },
     "link-1":{
         "type":"text",
         "textContent":"Home",
         "attrs":{
-            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold",
+            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold primary-font",
             "href":"/",
             "title":"Go to Home page"
         }
@@ -12,7 +27,7 @@
         "type":"text",
         "textContent":"About",
         "attrs":{
-            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold",
+            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold primary-font",
             "href":"/about",
             "title":"Go to Home page"
         }
@@ -21,7 +36,7 @@
         "type":"text",
         "textContent":"Service",
         "attrs":{
-            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold",
+            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold primary-font",
             "href":"/service",
             "title":"Go to Home page"
         }
@@ -30,7 +45,7 @@
         "type":"text",
         "textContent":"Projects",
         "attrs":{
-            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold",
+            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold primary-font",
             "href":"/projects",
             "title":"Go to Home page"
         }
@@ -39,14 +54,10 @@
         "type":"text",
         "textContent":"Contact",
         "attrs":{
-            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold",
+            "class":"text-decoration-none primary-text secondary-text-h md-text f-bold primary-font",
             "href":"/contact",
             "title":"Go to Home page"
         }
-    },
-    "header-logo":{
-        "type":"text",
-        "textContent":"Demo"
     },
     "header_nav_button":{
         "type":"none",
