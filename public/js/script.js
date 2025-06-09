@@ -3,7 +3,10 @@ const url = location.pathname;
 document.addEventListener('DOMContentLoaded',async () => {
     await LoadHeader_Footer();
     await LoadPage(main,url);
-    await InitAccessbility();
+    await InitAccessbility['header']();
+    if(InitAccessbility[url]){
+        await InitAccessbility[url]();
+    }
 })
 async function LoadHeader_Footer(){
     try{
@@ -95,8 +98,16 @@ function LoadElement(element,json){
 function Load404Page(){
   window.location.href = '/404';
 }
-async function InitAccessbility(){
-    const helloButton = document.getElementById('HelloButton');
-    if(helloButton)
-        helloButton.onclick = () => console.log("Hello world");
+const InitAccessbility = {
+    "header":async function(){
+        const header_nav_links = document.getElementById('header_nav_links');
+        document.querySelectorAll('.header-toggle').forEach(header_toggle => {
+            header_toggle.addEventListener('click',() => {
+                header_nav_links.classList.toggle('show');
+            })
+        });
+    },
+    "/":async function(){
+        
+    }
 }

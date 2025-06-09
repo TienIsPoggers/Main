@@ -879,6 +879,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* Section */
+
 header{
     position: relative;
     z-index: 10;
@@ -888,7 +889,31 @@ header{
 header .header_nav{
     height: 80px;
 }
-
+@media(max-width:1000px){
+    header .header_nav .header_nav_links{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 0rem 0;
+        z-index: 8;
+        background-color: rgb(240,240,240);
+        box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+        transition: height var(--transition-time),padding var(--transition-time);
+        overflow: hidden;
+        
+    }
+    header .header_nav .header_nav_links.show{
+        display: block;
+    }
+    header .header_nav .header_nav_links > li > a{
+        padding: 1.5rem;
+    }
+    header .header_nav .header_nav_links > li:hover{
+        background-color: rgb(220,220,220);
+    }
+}
 /* Block */
 .primary-button{
     position: relative;

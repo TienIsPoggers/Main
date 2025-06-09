@@ -1,46 +1,179 @@
 {
-    "link-1":{
+    "main-column-title":{
+        "type":"text",
+        "textContent":"Let's make th greatest birthday.",
+        "attrs":{
+            "class":"elg-text f-bold primary-font primary-text"
+        }
+    },
+    "main-column-left-title":{
+        "type":"text",
+        "textContent":"Call our office",
+        "attrs":{
+            "class":"md-text primary-text f-bold primary-font"
+        }   
+    },
+    "main-column-left-extra-title":{
+        "type":"text",
+        "textContent":"(+84) 768 --- 455",
+        "attrs":{
+            "class":"sm-text gray-text secondary-font"
+        }   
+    },
+    "main-column-right-title":{
+        "type":"text",
+        "textContent":"Contact us",
+        "attrs":{
+            "class":"md-text primary-text f-bold primary-font"
+        }   
+    },
+    "main-column-right-extra-title":{
+        "type":"text",
+        "textContent":"hang----@gmail.com",
+        "attrs":{
+            "class":"sm-text gray-text secondary-font"
+        }   
+    },
+    "footer-logo":{
+        "type":"text",
+        "textContent":"Demo",
+        "attrs":{
+            "class":"primary-font"
+        }
+    },
+    "footer-logo-link":{
+        "type":"none",
+        "attrs":{
+            "href":"/",
+            "class":"text-decoration-none primary-text secondary-text-h height-fit-content",
+            "title":"Logo: Click to Go to Home Page"
+        }
+    },
+    "page-column-title":{
+        "type":"text",
+        "textContent":"Website Page",
+        "attrs":{
+            "class":"primary-text md-text f-bold primary-font"
+        }
+    },
+    "page-link-1":{
         "type":"text",
         "textContent":"Home",
         "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/",
             "title":"Go to Home page"
         }
     },
-    "link-2":{
+    "page-link-2":{
         "type":"text",
         "textContent":"About",
         "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/about",
-            "title":"Go to Home page"
+            "title":"Go to About page"
         }
     },
-    "link-3":{
+    "page-link-3":{
         "type":"text",
         "textContent":"Service",
         "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/service",
-            "title":"Go to Home page"
+            "title":"Go to Service page"
         }
     },
-    "link-4":{
+    "page-link-4":{
         "type":"text",
         "textContent":"Projects",
         "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/projects",
-            "title":"Go to Home page"
+            "title":"Go to Projects page"
         }
     },
-    "link-5":{
+    "page-link-5":{
         "type":"text",
         "textContent":"Contact",
         "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/contact",
-            "title":"Go to Home page"
+            "title":"Go to Contact page"
         }
     },
-    "copy-text":{
+    "og-column-title":{
+        "type":"text",
+        "textContent":"Follow Us",
+        "attrs":{
+            "class":"primary-text md-text f-bold primary-font"
+        }
+    },
+    "og-link-1":{
+        "type":"text",
+        "textContent":"Pinterest",
+        "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
+            "href":"https://www.pinterest.com/",
+            "title":"Go to Pinterest",
+            "target":"_blank" 
+        }
+    },
+    "og-link-2":{
+        "type":"text",
+        "textContent":"Twitter",
+        "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
+            "href":"https://www.twitter.com",
+            "title":"o to Twitter",
+            "target":"_blank" 
+        }
+    },
+    "og-link-3":{
+        "type":"text",
+        "textContent":"Dribbble",
+        "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
+            "href":"https://dribbble.com/",
+            "title":"Go to Dribbble",
+            "target":"_blank" 
+        }
+    },
+    "og-link-4":{
+        "type":"text",
+        "textContent":"Instagram",
+        "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
+            "href":"https://www.instagram.com",
+            "title":"Go to Instagram",
+            "target":"_blank" 
+        }
+    },
+    "og-link-5":{
+        "type":"text",
+        "textContent":"Behance",
+        "attrs":{
+            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
+            "href":"http://www.behance.com",
+            "title":"Go to Behance",
+            "target":"_blank" 
+        }
+    },
+    "og-text":{
         "type":"text",
         "textContent":"&copy; 2025 Your Company. All rights reserved."
+    },
+    "footer-captcha-text":{
+        "type":"text",
+        "textContent":"This site is protected by reCAPTCHA and the Google privacy policy and terms of service apply. You must not use this website if you disagree with any of these website standard terms and conditions.",
+        "attrs":{
+            "class":"flex-2 padding-right-4 sm-text secondary-font gray-text"
+        }
+    },
+    "footer-copyRight-text":{
+        "type":"text",
+        "textContent":"&copy; 2025 | Birthday Webiste Design",
+        "attrs":{
+            "class":"flex-1 md-text gray-text text-right-d"
+        }
     }
 }

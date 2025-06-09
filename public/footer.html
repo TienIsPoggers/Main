@@ -1,11 +1,42 @@
-<nav> 
-    <ul>
-        <li><a data-content="link-1"></a></li>
-        <li><a data-content="link-2"></a></li>
-        <li><a data-content="link-3"></a></li>
-        <li><a data-content="link-4"></a></li>
-        <li><a data-content="link-5"></a></li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum itaque voluptas velit nesciunt dolores at laudantium facere corrupti similique.</p>
-    <p data-content="copy-text"></p>
-</nav>
+<div class="container padding-vertical-4">
+    <div class="display-flex gap-4 gap-3-m2 vertical-m">
+        <div class="order-2-m flex-2 display-flex vertical gap-4 gap-3-m2 space-between">
+            <h2 data-content="main-column-title"></h2>
+            <div class="display-flex gap-4 vertical-m3">
+                <div class="flex-1 display-flex vertical">
+                    <h3 data-content="main-column-left-title"></h3>
+                    <p data-content="main-column-left-extra-title"></p>
+                </div>
+                <div class="flex-1 display-flex vertical">
+                    <h3 data-content="main-column-right-title"></h3>
+                    <p data-content="main-column-right-extra-title"></p>
+                </div>
+            </div>
+        </div>
+        <div class="display-flex gap-4 flex-2 order-3-m vertical-m3">
+            <ul class=" flex-1 display-flex vertical gap-1" aria-labelledby="Website Page">
+                <li class="margin-bottom-2"><h3 data-content="page-column-title"></h3></li>
+                <li><a data-content="page-link-1"></a></li>
+                <li><a data-content="page-link-2"></a></li>
+                <li><a data-content="page-link-3"></a></li>
+                <li><a data-content="page-link-4"></a></li>
+                <li><a data-content="page-link-5"></a></li>
+            </ul>
+            <ul class="flex-1 flex-1 display-flex vertical gap-1" aria-labelledby="Full List Follow Link">
+                <li class="margin-bottom-2"><h3 data-content="og-column-title"></h3></li>
+                <li><a data-content="og-link-1"></a></li>
+                <li><a data-content="og-link-2"></a></li>
+                <li><a data-content="og-link-3"></a></li>
+                <li><a data-content="og-link-4"></a></li>
+                <li><a data-content="og-link-5"></a></li>
+            </ul>
+        </div>
+        <a data-content="footer-logo-link">
+            <h2 data-content="footer-logo"></h2>
+        </a>
+    </div>
+    <div class="display-flex space-between margin-top-4 vertical-m3 gap-3 gap-3-m2" aria-labelledby="Primary Policy">
+        <p data-content="footer-captcha-text"></p>
+        <h4 data-content="footer-copyRight-text"></h4>
+    </div>
+</div>
