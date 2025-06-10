@@ -121,7 +121,7 @@
     },
     "main-section-04-extra-header":{
         "type":"text",
-        "textContent":"Our Paletee of Expertise"
+        "textContent":"Our Paletee of Expertise Lorem ipsum dolor sit amet."
     },
     "main-section-04-item-01-icon":{
         "type":"text",
@@ -194,5 +194,62 @@
     "main-section-04-item-06-paragraph":{
         "type":"text",
         "textContent":"It creates a recognizable identity that differentiates the brand from competitors and resonates with the target audience"
+    },
+    "main-section-05-header":{
+        "type":"text",
+        "textContent":"FAQ"
+    },
+    "main-section-05-extra-header":{
+        "type":"text",
+        "textContent":"Everything you need to know about features membership and troubleshooting"
+    },
+    "main-section-05-item-01-header":{
+        "type":"text",
+        "textContent":"What are the best color schemes for small rooms?"
+    },
+    "main-section-05-item-01-paragraph":{
+        "type":"text",
+        "textContent":"Lighter colors, such as soft pastels or whites, can make small rooms feel larger. Consider using pops of color through accessories for added interest."
+    },
+    "main-section-05-item-02-header":{
+        "type":"text",
+        "textContent":"How can I maximize storage in a small space?"
+    },
+    "main-section-05-item-02-paragraph":{
+        "type":"text",
+        "textContent":"Use multifunctional furniture, such as ottomans with storage or beds with drawers. Wall shelves and built-in cabinets can also help utilize vertical space effectively."
+    },
+    "main-section-05-item-03-header":{
+        "type":"text",
+        "textContent":"What type of lighting is best for interiors?"
+    },
+    "main-section-05-item-03-paragraph":{
+        "type":"text",
+        "textContent":"A combination of ambient, task, and accent lighting works best. Consider using dimmable fixtures and layering different light sources to create a warm and inviting atmosphere."
+    },
+    "main-section-05-item-04-header":{
+        "type":"text",
+        "textContent":"How can I make a room feel cozy?"
+    },
+    "main-section-05-item-04-paragraph":{
+        "type":"text",
+        "textContent":"Incorporate soft textiles, such as throws and cushions, and use warm color palettes. Adding personal touches like artwork or photos can also enhance the cozy feel."
+    },
+    "main-section-05-item-05-header":{
+        "type":"text",
+        "textContent":"What are some tips for choosing furniture?"
+    },
+    "main-section-05-item-05-paragraph":{
+        "type":"text",
+        "textContent":"Consider the scale of your space and choose furniture that fits comfortably without overcrowding. Prioritize quality and functionality while keeping your style preferences in mind."
+    },
+    "main-section-05-item-06-header":{
+        "type":"text",
+        "textContent":"How can I incorporate plants into my interior design?"
+    },
+    "main-section-05-item-06-paragraph":{
+        "type":"text",
+        "textContent":"Use a variety of plants at different heights and sizes to create visual interest. Consider hanging plants or wall-mounted planters if floor space is limited, and choose low-maintenance varieties for ease of care."
     }
+
 }

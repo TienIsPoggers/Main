@@ -157,6 +157,46 @@ const InitAccessbility = {
         });
     },
     "/":async function(){
-        
+        document.querySelectorAll('.Accordion').forEach(accordion => {globalBlocks.accordion(accordion)})
+    }
+}
+
+
+const globalBlocks = {
+    accordion: function(block){
+        block.querySelectorAll('.Accordion-item').forEach(item => {
+            const header = item.querySelectorAll('div')[0];
+            const triggerIcon = header.querySelectorAll('*')[1];
+            const content = item.querySelectorAll('div')[1];
+            content.style.height = '0px';
+            content.style.marginTop = '0px';
+            item.classList.add('cursor-pointer');
+            item.addEventListener('click',() => {
+                let IsOpen = content.style.height == '0px'
+                if(triggerIcon){triggerIcon.style.transform = IsOpen ? "rotate(45deg)" : "rotate(0deg)"}
+                content.style.marginTop = IsOpen ? '1rem' : '0px'
+                content.style.height = IsOpen ? content.scrollHeight + 'px' : '0px'
+            })
+        })
+    },
+    tab_header: function(block){
+        const tab_items = block.querySelector('.tab_items')
+        const tab_item = tab_items.querySelectorAll('[data-tab]');
+        const tab_items_input = block.querySelector('.tab_items_input')
+        const tab_items_input_button = tab_items_input.querySelectorAll('.tab_item')
+        const displaytabItem = (item,display) => {(display) ? item.classList.remove('display-none') : item.classList.add('display-none')}
+        const displaytabInput = (item,display) => {(display) ? item.classList.add('active') : item.classList.remove('active')}
+        const displayNoneAll = () => {tab_item.forEach(item => displaytabItem(item,false));tab_items_input_button.forEach(item => displaytabInput(item,false))};
+        displayNoneAll();
+        displaytabItem(tab_item[0],true)
+        displaytabInput(tab_items_input_button[0],true)
+        tab_items_input_button.forEach(tab_item_button => {
+            tab_item_button.addEventListener('click',() => {
+                displayNoneAll();
+                let id = tab_item_button.getAttribute('data-tab')
+                displaytabInput(tab_item_button,true);
+                tab_item.forEach(item => {if(item.getAttribute('data-tab') == id){displaytabItem(item,true)}})
+            })
+        })
     }
 }

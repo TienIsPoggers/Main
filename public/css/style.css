@@ -1024,26 +1024,33 @@ header .header_nav{
     height: 1px;
     margin: 0 0;
     width: 75%;
-    background: linear-gradient(to right,black,transparent);
+    max-width: 240px;
+    background: linear-gradient(to right,var(--primary-color),transparent);
 }
 .horizontal-type-2{
     height: 1px;
     margin: 0 auto;
     width: 75%;
-    background: linear-gradient(to right,transparent,black,transparent);
+    max-width: 240px;
+    background: linear-gradient(to right,transparent,var(--primary-color),transparent);
 }
 @media(max-width:1000px){
     .horizontal-type-1-m{
         height: 1px;
         margin: 0 0;
         width: 75%;
-        background: linear-gradient(to right,black,transparent);
+        max-width: 240px;
+        background: linear-gradient(to right,var(--primary-color),transparent);
     }
     .horizontal-type-2-m{
         height: 1px;
         margin: 0 auto;
         width: 75%;
-        background: linear-gradient(to right,transparent,black,transparent);
+        max-width: 240px;
+        background: linear-gradient(to right,transparent,var(--primary-color),transparent);
+    }
+    .primary-button,.secondary-button,.third-button{
+        padding: 0.5rem 1rem;
     }
 }
 /* section */
