@@ -112,6 +112,8 @@ function LoadElement(element,json){
             element.width = json.width || 100;
             element.height = json.height || 100;
             element.alt = json.alt || 'Demo';
+            element.title = json.alt || 'Demo';
+            element.loading = json.loading || 'lazy'
         break
         case 'projects':
             let items = json.items;

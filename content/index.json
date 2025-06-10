@@ -110,9 +110,9 @@
         "type":"text",
         "textContent":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus optio soluta."
     },
-    "main-section-03-blogs":{
+    "main-section-03-projects":{
         "type":"projects",
-        "items":[0,2],
+        "items":[0,1,2],
         "instance":"/item/project.html"
     },
     "main-section-04-header":{
@@ -250,6 +250,55 @@
     "main-section-05-item-06-paragraph":{
         "type":"text",
         "textContent":"Use a variety of plants at different heights and sizes to create visual interest. Consider hanging plants or wall-mounted planters if floor space is limited, and choose low-maintenance varieties for ease of care."
+    },
+    "main-section-06-left-image":{
+        "type":"image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "alt":"Main Section Left Image"
+    },
+    "main-section-06-left-header":{
+        "type":"text",
+        "textContent":"Main Section Left"
+    },
+    "main-section-06-left-paragraph":{
+        "type":"text",
+        "textContent":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum nesciunt molestias?"
+    },
+    "main-section-06-left-button":{
+        "type":"none",
+        "attrs":{
+            "title":"Learn More"
+        }
+    },
+    "main-section-06-left-button-content":{
+        "type":"text",
+        "textContent":"Learn More"
+    },
+    "main-section-06-right-image":{
+        "type":"image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "alt":"Main Section Right Image"
+    },
+    "main-section-06-right-header":{
+        "type":"text",
+        "textContent":"Main Section Right"
+    },
+    "main-section-06-right-paragraph":{
+        "type":"text",
+        "textContent":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum nesciunt molestias?"
+    },
+    "main-section-06-right-button":{
+        "type":"none",
+        "attrs":{
+            "title":"Learn More"
+        }
+    },
+    "main-section-06-right-button-content":{
+        "type":"text",
+        "textContent":"Learn More"
     }
-
 }
