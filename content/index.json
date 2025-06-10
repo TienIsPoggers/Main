@@ -18,7 +18,88 @@
     "main-background":{
         "type":"none",
         "attrs":{
-            "class":"primary-background"
+            "class":"support-background"
         }
+    },
+    "main-section-01-image-desktop":{
+        "type":"image",
+        "src":"images/room-header-desktop.webp",
+        "style":"max-height: 1000px;",
+        "width":2000,
+        "height":1000,
+        "alt":"How a normal room look like"
+    },
+    "main-section-01-image-mobile":{
+        "type":"none",
+        "attrs":{
+            "srcset":"images/room-header-mobile.webp",
+            "media":"(max-width:1000px)",
+            "width":1000,
+            "height":1000
+        }
+    },
+    "main-section-01-item-info-header":{
+        "type":"text",
+        "textContent":"Inspired Designs for Modern Living",
+        "attrs":{
+            "class":"elg-text primary-font white-text text-center"
+        }
+    },
+    "main-section-01-item-info-paragraph":{
+        "type":"text",
+        "textContent":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe nihil a neque mollitia, nulla autem delectus! Accusantium accusamus beatae aut dolor vero magnam! Quam!",
+        "attrs":{
+            "class":"sm-text secondary-font white-text text-center"
+        }
+    },
+    "main-section-01-item-info-button":{
+        "type":"none",
+        "attrs":{
+            "class":"width-fit-content",
+            "title":"Learn More"
+        }
+    },
+    "main-section-01-item-info-button-content":{
+        "type":"text",
+        "textContent":"Learn More"
+    },
+    "main-section-01-item-info-button-2":{
+        "type":"none",
+        "attrs":{
+            "class":"width-fit-content",
+            "title":"Go Next"
+        }
+    },
+    "main-section-01-item-info-button-content-2":{
+        "type":"text",
+        "textContent":"Go Next"
+    },
+    "main-section-02-image":{
+        "type":"image",
+        "alt":"About Us Image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "attrs":{
+            "class":"border-radius height-100 object-fit-cover"
+        }
+    },
+    "main-section-02-header":{
+        "type":"text",
+        "textContent":"About Us"
+    },
+    "main-section-02-paragraph":{
+        "type":"text",
+        "textContent":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odio sit alias labore quidem officia porro culpa, dolorem assumenda, dolor accusamus atque omnis eveniet enim ipsam tempore sed provident quod!"
+    },
+    "main-section-02-secondary-button":{
+        "type":"none",
+        "attrs":{
+            "title":"Learn More"
+        }
+    },
+    "main-section-02-secondary-button-content":{
+        "type":"text",
+        "textContent":"Learn more"
     }
 }

@@ -2,6 +2,7 @@
     "--primary-color":"#2C3E50",
     "--secondary-color":"#2980B9",
     "--accent-color":"#E74C3C",
+    "--support-background":"rgb(240,240,240)",
     "--gap":"0.5rem",
     "--border-radius":"0.5rem",
     "--transition-time":"600ms",

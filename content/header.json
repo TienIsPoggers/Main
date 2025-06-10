@@ -62,9 +62,7 @@
     "header_nav_button":{
         "type":"none",
         "attrs":{
-            "class":"primary-button",
-            "title":"Learn More",
-            "id":"HelloButton"
+            "title":"Learn More"
         }
     },
     "header_nav_button_content":{

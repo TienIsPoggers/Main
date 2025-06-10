@@ -73,7 +73,6 @@ function LoadElement(element,json){
             element.width = json.width || 100;
             element.height = json.height || 100;
             element.alt = json.alt || 'Demo';
-            element.title = json.alt || 'Demo';
         break
         case 'none':
 

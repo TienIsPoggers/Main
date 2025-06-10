@@ -173,7 +173,7 @@
         "type":"text",
         "textContent":"&copy; 2025 | Birthday Webiste Design",
         "attrs":{
-            "class":"flex-1 md-text gray-text text-right-d"
+            "class":"flex-1 sm-text gray-text text-right-d secondary-font"
         }
     }
 }

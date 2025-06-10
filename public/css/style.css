@@ -14,6 +14,7 @@
 }
 body{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 ul{
@@ -23,6 +24,8 @@ ul{
 }
 img{
     background-color: gray;
+    max-width: 100%;
+    height: auto;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
@@ -161,7 +164,7 @@ h1,h2,h3,h4,h5,h6,p{
 .order-6{order: 6;}
 .f-bold{font-weight: bold;}
 .sm-text{font-size: 0.9rem;}
-.md-text{font-size: 1.2rem;}
+.md-text{font-size: 1.1rem;}
 .lg-text{font-size: 1.4rem;}
 .elg-text{font-size: 2.0rem;}
 .selg-text{font-size: 3rem;}
@@ -368,7 +371,7 @@ h1,h2,h3,h4,h5,h6,p{
     .height-90-m{height: 90%;}
     .height-100-m{height: 100%;}
     .sm-text{font-size: 0.8rem;}
-    .md-text{font-size: 1.1rem;}
+    .md-text{font-size: 1.0rem;}
     .lg-text{font-size: 1.25rem;}
     .elg-text{font-size: 1.8rem;}
     .selg-text{font-size: 2.6rem;}
@@ -524,7 +527,7 @@ h1,h2,h3,h4,h5,h6,p{
     .height-90-m2{height: 90%;}
     .height-100-m2{height: 100%;}
     .sm-text{font-size: 0.8rem;}
-    .md-text{font-size: 1.1rem;}
+    .md-text{font-size: 0.9rem;}
     .lg-text{font-size: 1.25rem;}
     .elg-text{font-size: 1.8rem;}
     .selg-text{font-size: 2.6rem;}
@@ -680,7 +683,7 @@ h1,h2,h3,h4,h5,h6,p{
     .height-90-m3{height: 90%;}
     .height-100-m3{height: 100%;}
     .sm-text{font-size: 0.8rem;}
-    .md-text{font-size: 1.1rem;}
+    .md-text{font-size: 0.9rem;}
     .lg-text{font-size: 1.25rem;}
     .elg-text{font-size: 1.8rem;}
     .selg-text{font-size: 2.6rem;}
@@ -924,6 +927,8 @@ header .header_nav{
     box-shadow: 0 0px 0px rgba(0,0,0,0.5);
     transition: transform var(--transition-time),box-shadow var(--transition-time);
     text-decoration: none;
+    background-color: white;
+    overflow: hidden;
     
 }
 .primary-button:after{
@@ -956,4 +961,99 @@ header .header_nav{
 }
 .primary-button:hover > * {
     color: white;
+}
+.secondary-button{
+    position: relative;
+    padding: 0.7rem 1.4rem;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.5);
+    transition: transform var(--transition-time),box-shadow var(--transition-time);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    
+}
+.secondary-button:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at top center);
+    background-color: white;
+    transition: clip-path var(--transition-time);
+    
+}
+.secondary-button:hover{
+    transform: translate(0,-5px);
+    box-shadow: 0 5px 3px rgba(0,0,0,0.5);
+}
+.secondary-button:hover:after{
+    clip-path: circle(75% at center);
+    
+}
+.secondary-button > * {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    z-index: 3;
+    font-family: var(--primary-font),sans-serif;
+    transition: color var(--transition-time);
+}
+.secondary-button:hover > * {
+    color: var(--primary-color);
+}
+.black-background:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.horizontal-type-1{
+    height: 1px;
+    margin: 0 0;
+    width: 75%;
+    background: linear-gradient(to right,black,transparent);
+}
+.horizontal-type-2{
+    height: 1px;
+    margin: 0 auto;
+    width: 75%;
+    background: linear-gradient(to right,transparent,black,transparent);
+}
+@media(max-width:1000px){
+    .horizontal-type-1-m{
+        height: 1px;
+        margin: 0 0;
+        width: 75%;
+        background: linear-gradient(to right,black,transparent);
+    }
+    .horizontal-type-2-m{
+        height: 1px;
+        margin: 0 auto;
+        width: 75%;
+        background: linear-gradient(to right,transparent,black,transparent);
+    }
+}
+/* section */
+.main-section-01-item-info{
+    height: 100%;
+    width: 50%;
+    overflow-y: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+@media(max-width:1000px){
+    .main-section-01-item-info{
+        width: 90%;
+    }
 }
