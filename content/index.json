@@ -101,5 +101,98 @@
     "main-section-02-secondary-button-content":{
         "type":"text",
         "textContent":"Learn more"
+    },
+    "main-section-03-header":{
+        "type":"text",
+        "textContent":"Capturing Moment Creating Memories"
+    },
+    "main-section-03-extra-header":{
+        "type":"text",
+        "textContent":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus optio soluta."
+    },
+    "main-section-03-blogs":{
+        "type":"projects",
+        "items":[0,2],
+        "instance":"/item/project.html"
+    },
+    "main-section-04-header":{
+        "type":"text",
+        "textContent":"Our Service"
+    },
+    "main-section-04-extra-header":{
+        "type":"text",
+        "textContent":"Our Paletee of Expertise"
+    },
+    "main-section-04-item-01-icon":{
+        "type":"text",
+        "textContent":"<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='white''><path d='M5 8V20H9V8H5ZM3 7L7 2L11 7V22H3V7ZM19 16V14H16V12H19V10H17V8H19V6H15V20H19V18H17V16H19ZM14 4H20C20.5523 4 21 4.44772 21 5V21C21 21.5523 20.5523 22 20 22H14C13.4477 22 13 21.5523 13 21V5C13 4.44772 13.4477 4 14 4'></path></svg>"
+    },
+    "main-section-04-item-01-header":{
+        "type":"text",
+        "textContent":"Graphic Design"
+    },
+    "main-section-04-item-01-paragraph":{
+        "type":"text",
+        "textContent":"Unlock the power of visual storytelling with our expert graphic design services tailored to elevate your brand and captivate"
+    },
+    "main-section-04-item-02-icon":{
+        "type":"text",
+        "textContent":"<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='white''><path d='M21 11.6458V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V11.6458C2.37764 10.9407 2 10.0144 2 9V3C2 2.44772 2.44772 2 3 2H21C21.5523 2 22 2.44772 22 3V9C22 10.0144 21.6224 10.9407 21 11.6458ZM19 12.874C18.6804 12.9562 18.3453 13 18 13C16.8053 13 15.7329 12.4762 15 11.6458C14.2671 12.4762 13.1947 13 12 13C10.8053 13 9.73294 12.4762 9 11.6458C8.26706 12.4762 7.19469 13 6 13C5.6547 13 5.31962 12.9562 5 12.874V20H19V12.874ZM14 9C14 8.44772 14.4477 8 15 8C15.5523 8 16 8.44772 16 9C16 10.1046 16.8954 11 18 11C19.1046 11 20 10.1046 20 9V4H4V9C4 10.1046 4.89543 11 6 11C7.10457 11 8 10.1046 8 9C8 8.44772 8.44772 8 9 8C9.55228 8 10 8.44772 10 9C10 10.1046 10.8954 11 12 11C13.1046 11 14 10.1046 14 9Z'></path></svg>"
+    },
+    "main-section-04-item-02-header":{
+        "type":"text",
+        "textContent":"Digital Marketing"
+    },
+    "main-section-04-item-02-paragraph":{
+        "type":"text",
+        "textContent":"Elevate your brand`s online presence with our data-driven digital marketing strategies From SEO and content marketing"
+    },
+    "main-section-04-item-03-icon":{
+        "type":"text",
+        "textContent":"<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='white''><path d='M15.7279 9.57627L14.3137 8.16206L5 17.4758V18.89H6.41421L15.7279 9.57627ZM17.1421 8.16206L18.5563 6.74785L17.1421 5.33363L15.7279 6.74785L17.1421 8.16206ZM7.24264 20.89H3V16.6473L16.435 3.21231C16.8256 2.82179 17.4587 2.82179 17.8492 3.21231L20.6777 6.04074C21.0682 6.43126 21.0682 7.06443 20.6777 7.45495L7.24264 20.89Z'></path></svg>"
+    },
+    "main-section-04-item-03-header":{
+        "type":"text",
+        "textContent":"Content Marketing"
+    },
+    "main-section-04-item-03-paragraph":{
+        "type":"text",
+        "textContent":"Our team creates engaging and shareable content that resonates with your audience, drives organic traffic"
+    },
+    "main-section-04-item-04-icon":{
+        "type":"text",
+        "textContent":"<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='white''><path d='M16.7574 2.99678L9.29145 10.4627L9.29886 14.7099L13.537 14.7024L21 7.23943V19.9968C21 20.5491 20.5523 20.9968 20 20.9968H4C3.44772 20.9968 3 20.5491 3 19.9968V3.99678C3 3.4445 3.44772 2.99678 4 2.99678H16.7574ZM20.4853 2.09729L21.8995 3.5115L12.7071 12.7039L11.2954 12.7064L11.2929 11.2897L20.4853 2.09729Z'></path></svg>"
+    },
+    "main-section-04-item-04-header":{
+        "type":"text",
+        "textContent":"UI/UX Design"
+    },
+    "main-section-04-item-04-paragraph":{
+        "type":"text",
+        "textContent":"Bringing the history of your brand to the forefront gives an emotional dimension to your visual identity, which is essential today more than ever in today's digital landspace"
+    },
+    "main-section-04-item-05-icon":{
+        "type":"text",
+        "textContent":"<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='white''><path d='M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21ZM20 11H4V19H20V11ZM20 5H4V9H20V5ZM11 6V8H9V6H11ZM7 6V8H5V6H7Z'></path></svg>"
+    },
+    "main-section-04-item-05-header":{
+        "type":"text",
+        "textContent":"Web Design"
+    },
+    "main-section-04-item-05-paragraph":{
+        "type":"text",
+        "textContent":"We specialize in creating visually stunning user-friendly websites that align with your brand identity and deliver an exceptional"
+    },
+    "main-section-04-item-06-icon":{
+        "type":"text",
+        "textContent":"<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='white''><path d='M1 5C1 4.44772 1.44772 4 2 4H22C22.5523 4 23 4.44772 23 5V19C23 19.5523 22.5523 20 22 20H2C1.44772 20 1 19.5523 1 19V5ZM13 8V10H19V8H13ZM18 12H13V14H18V12ZM10.5 10C10.5 8.61929 9.38071 7.5 8 7.5C6.61929 7.5 5.5 8.61929 5.5 10C5.5 11.3807 6.61929 12.5 8 12.5C9.38071 12.5 10.5 11.3807 10.5 10ZM8 13.5C6.067 13.5 4.5 15.067 4.5 17H11.5C11.5 15.067 9.933 13.5 8 13.5Z'></path></svg>"
+    },
+    "main-section-04-item-06-header":{
+        "type":"text",
+        "textContent":"Brand Identity"
+    },
+    "main-section-04-item-06-paragraph":{
+        "type":"text",
+        "textContent":"It creates a recognizable identity that differentiates the brand from competitors and resonates with the target audience"
     }
 }

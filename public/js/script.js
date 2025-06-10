@@ -48,6 +48,45 @@ async function LoadPage(container,url){
         Load404Page();
     }
 }
+async function LoadProjects({url,items = [],instance,container}){
+    try{
+        let response = await fetch("api/item",{
+            method:"POST",
+            headers:{"Content-Type": "application/json"},
+            body:JSON.stringify({url:url})
+        })
+        let json = await response.json();
+        let data = JSON.parse(json.data);
+        container.innerHTML = '';
+        items.forEach(async item => {
+            const jsonItem = data[item]
+            if(jsonItem)
+                await LoadProject(jsonItem,instance,container);
+        })
+    }catch(err){
+        console.log(err);
+    }
+}
+async function LoadProject(item,instance,container,data){
+    try{
+        let response = await fetch("api/html",{
+            method:"POST",
+            headers:{"Content-Type": "application/json"},
+            body:JSON.stringify({url:instance})
+        })
+        let json = await response.text();
+        const project = document.createElement('div');
+        project.innerHTML = json;
+        project.classList.add("project-item")
+        container.appendChild(project);
+        LoadProjectContent(project,item);
+    }catch(err){
+        console.log(err);
+    }
+}
+function LoadProjectContent(element,json){      
+    LoadPageContent(element,JSON.stringify(json));
+}
 function LoadPageContent(container,json){
     let data = JSON.parse(json);
     const elements = container.querySelectorAll('[data-content]');  
@@ -69,10 +108,21 @@ function LoadElement(element,json){
             element.innerHTML = textContent;
         break;
         case 'image':
-            element.src = json.src || '/';
+            element.src = json.src || 'images/room-header-mobile.webp';
             element.width = json.width || 100;
             element.height = json.height || 100;
             element.alt = json.alt || 'Demo';
+        break
+        case 'projects':
+            let items = json.items;
+            let instance = json.instance || '/item/project.html';
+            let src = json.src || "/projects/projects.json"
+            LoadProjects({
+                url: src,
+                items: items,
+                instance: instance,
+                container: element
+            });
         break
         case 'none':
 

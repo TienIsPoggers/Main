@@ -42,6 +42,7 @@ h1,h2,h3,h4,h5,h6,p{
 .display-grid.grid-template-columns-5{grid-template-columns: repeat(5,1fr);}
 .display-grid.grid-template-columns-6{grid-template-columns: repeat(6,1fr);}
 .display-flex.vertical{flex-direction: column;}
+.display-flex.vertical-swap{flex-direction: column-reverse;}
 .display-flex.center{
     align-items: center;
     justify-content: center;
@@ -918,7 +919,7 @@ header .header_nav{
     }
 }
 /* Block */
-.primary-button{
+.primary-button,.third-button{
     position: relative;
     padding: 0.7rem 1.4rem;
     border: 2px solid var(--primary-color);
@@ -931,7 +932,10 @@ header .header_nav{
     overflow: hidden;
     
 }
-.primary-button:after{
+.third-button{
+    border: 2px solid white;
+}
+.primary-button:after,.third-button:after{
     content: "";
     position: absolute;
     left: 0;
@@ -943,15 +947,15 @@ header .header_nav{
     transition: clip-path var(--transition-time);
     
 }
-.primary-button:hover{
+.primary-button:hover,.third-button:hover{
     transform: translate(0,-5px);
     box-shadow: 0 5px 3px rgba(0,0,0,0.5);
 }
-.primary-button:hover:after{
+.primary-button:hover:after,.third-button:hover:after{
     clip-path: circle(75% at center);
     
 }
-.primary-button > * {
+.primary-button > * ,.third-button > *{
     position: relative;
     color: var(--primary-color);
     font-weight: bold;
@@ -959,7 +963,7 @@ header .header_nav{
     font-family: var(--primary-font),sans-serif;
     transition: color var(--transition-time);
 }
-.primary-button:hover > * {
+.primary-button:hover > * ,.third-button:hover > *{
     color: white;
 }
 .secondary-button{

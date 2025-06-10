@@ -1,24 +1,21 @@
 {
-    "main-header":{
+    "projects-section-01-header":{
         "type":"text",
-        "textContent":"Projects Page",
-        "attrs":{
-            "id":"Main_Page",
-            "class":"white-text"
-        }
+        "textContent":"Capturing Moment Creating Memories"
     },
-    "main-paragraph":{
+    "projects-section-01-extra-header":{
         "type":"text",
-        "textContent":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur maiores nihil voluptatem libero! Excepturi, exercitationem.",
-        "attrs":{
-            "class":"white-text f-bold"
-        }  
-        
+        "textContent":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus optio soluta."
+    },
+    "projects-section-01-blogs":{
+        "type":"projects",
+        "items":[0,1,2],
+        "instance":"/item/project_2.html"
     },
     "main-background":{
         "type":"none",
         "attrs":{
-            "class":"primary-background"
+            "class":"support-background"
         }
     }
 }

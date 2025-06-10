@@ -30,11 +30,19 @@ router.get('/contact',(req,res) => {
 router.get('/404',(req,res) => {
     res.sendFile(path.join(__dirname,"../public/404.html"))
 })
+router.post('/api/html',(req,res) => {
+    res.sendFile(path.join(__dirname,'../public',req.body.url))
+})
 router.post('/api',async (req,res) => {
     var item = req.body.url;
     if(item === '/')
         item += 'index'
     let data = await fs.readFile(`./content${item}.json`,"utf8")
+    res.send({data: data});
+})
+router.post('/api/item',async (req,res) => {
+    var item = req.body.url;
+    let data = await fs.readFile(`./content${item}`,"utf8")
     res.send({data: data});
 })
 router.get('/api/theme',async (req,res) => {
