@@ -1,20 +1,4 @@
 {
-    "main-header":{
-        "type":"text",
-        "textContent":"Main Page 3",
-        "attrs":{
-            "id":"Main_Page",
-            "class":"white-text"
-        }
-    },
-    "main-paragraph":{
-        "type":"text",
-        "textContent":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur maiores nihil voluptatem libero! Excepturi, exercitationem.",
-        "attrs":{
-            "class":"white-text f-bold"
-        }  
-        
-    },
     "main-background":{
         "type":"none",
         "attrs":{
@@ -40,22 +24,15 @@
     },
     "main-section-01-item-info-header":{
         "type":"text",
-        "textContent":"Inspired Designs for Modern Living",
-        "attrs":{
-            "class":"elg-text primary-font white-text text-center"
-        }
+        "textContent":"Inspired Designs for Modern Living"
     },
     "main-section-01-item-info-paragraph":{
         "type":"text",
-        "textContent":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe nihil a neque mollitia, nulla autem delectus! Accusantium accusamus beatae aut dolor vero magnam! Quam!",
-        "attrs":{
-            "class":"sm-text secondary-font white-text text-center"
-        }
+        "textContent":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe nihil a neque mollitia, nulla autem delectus! Accusantium accusamus beatae aut dolor vero magnam! Quam!"
     },
     "main-section-01-item-info-button":{
         "type":"none",
         "attrs":{
-            "class":"width-fit-content",
             "title":"Learn More"
         }
     },
@@ -66,7 +43,6 @@
     "main-section-01-item-info-button-2":{
         "type":"none",
         "attrs":{
-            "class":"width-fit-content",
             "title":"Go Next"
         }
     },
@@ -298,6 +274,92 @@
         }
     },
     "main-section-06-right-button-content":{
+        "type":"text",
+        "textContent":"Learn More"
+    },
+    "main-section-07-content":{
+        "type":"text",
+        "textContent":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui id repellat cumque."
+    },
+    "main-section-08-image-desktop":{
+        "type":"image",
+        "src":"images/room-header-desktop.webp",
+        "style":"max-height: 1000px;",
+        "width":2000,
+        "height":1000,
+        "alt":"How a normal room look like"
+    },
+    "main-section-08-image-mobile":{
+        "type":"none",
+        "attrs":{
+            "srcset":"images/room-header-mobile.webp",
+            "media":"(max-width:1000px)",
+            "width":1000,
+            "height":1000
+        }
+    },
+    "main-section-09-left-image":{
+        "type":"image",
+        "src":"images/room-header-desktop.webp",
+        "width":2000,
+        "height":1000,
+        "alt":"Main Section Left Image"
+    },
+    "main-section-09-right-image":{
+        "type":"image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "alt":"Main Section Right Image"
+    },
+    "main-section-10-image-01":{
+        "type":"image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "alt":"Triple Banner Image"
+    },
+    "main-section-10-button-01":{
+        "type":"none",
+        "attrs":{
+            "title":"Learn More"
+        }
+    },
+    "main-section-10-button-content-01":{
+        "type":"text",
+        "textContent":"Learn More"
+    },
+    "main-section-10-image-02":{
+        "type":"image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "alt":"Triple Banner Image"
+    },
+    "main-section-10-button-02":{
+        "type":"none",
+        "attrs":{
+            "title":"Learn More"
+        }
+    },
+    "main-section-10-button-content-02":{
+        "type":"text",
+        "textContent":"Learn More"
+    },
+    "main-section-10-image-03":{
+        "type":"image",
+        "src":"images/room-header-mobile.webp",
+        "width":1000,
+        "height":1000,
+        "alt":"Triple Banner Image"
+    },
+    "main-section-10-button-03":{
+        "type":"none",
+        "attrs":{
+            "title":"Learn More"
+        }
+    },
+    "main-section-10-button-content-03":{
         "type":"text",
         "textContent":"Learn More"
     }

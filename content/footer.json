@@ -1,66 +1,43 @@
 {
     "main-column-title":{
         "type":"text",
-        "textContent":"Let's make th greatest birthday.",
-        "attrs":{
-            "class":"elg-text f-bold primary-font primary-text"
-        }
+        "textContent":"Let's make th greatest birthday."
     },
     "main-column-left-title":{
         "type":"text",
-        "textContent":"Call our office",
-        "attrs":{
-            "class":"md-text primary-text f-bold primary-font"
-        }   
+        "textContent":"Call our office"
     },
     "main-column-left-extra-title":{
         "type":"text",
-        "textContent":"(+84) 768 --- 455",
-        "attrs":{
-            "class":"sm-text gray-text secondary-font"
-        }   
+        "textContent":"(+84) 768 --- 455"
     },
     "main-column-right-title":{
         "type":"text",
-        "textContent":"Contact us",
-        "attrs":{
-            "class":"md-text primary-text f-bold primary-font"
-        }   
+        "textContent":"Contact us"
     },
     "main-column-right-extra-title":{
         "type":"text",
-        "textContent":"hang----@gmail.com",
-        "attrs":{
-            "class":"sm-text gray-text secondary-font"
-        }   
+        "textContent":"hang----@gmail.com"
     },
     "footer-logo":{
         "type":"text",
-        "textContent":"Demo",
-        "attrs":{
-            "class":"primary-font"
-        }
+        "textContent":"Demo"
     },
     "footer-logo-link":{
         "type":"none",
         "attrs":{
             "href":"/",
-            "class":"text-decoration-none primary-text secondary-text-h height-fit-content",
             "title":"Logo: Click to Go to Home Page"
         }
     },
     "page-column-title":{
         "type":"text",
-        "textContent":"Website Page",
-        "attrs":{
-            "class":"primary-text md-text f-bold primary-font"
-        }
+        "textContent":"Website Page"
     },
     "page-link-1":{
         "type":"text",
         "textContent":"Home",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/",
             "title":"Go to Home page"
         }
@@ -69,7 +46,6 @@
         "type":"text",
         "textContent":"About",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/about",
             "title":"Go to About page"
         }
@@ -78,7 +54,6 @@
         "type":"text",
         "textContent":"Service",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/service",
             "title":"Go to Service page"
         }
@@ -87,7 +62,6 @@
         "type":"text",
         "textContent":"Projects",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/projects",
             "title":"Go to Projects page"
         }
@@ -96,23 +70,18 @@
         "type":"text",
         "textContent":"Contact",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"/contact",
             "title":"Go to Contact page"
         }
     },
     "og-column-title":{
         "type":"text",
-        "textContent":"Follow Us",
-        "attrs":{
-            "class":"primary-text md-text f-bold primary-font"
-        }
+        "textContent":"Follow Us"
     },
     "og-link-1":{
         "type":"text",
         "textContent":"Pinterest",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"https://www.pinterest.com/",
             "title":"Go to Pinterest",
             "target":"_blank" 
@@ -122,7 +91,6 @@
         "type":"text",
         "textContent":"Twitter",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"https://www.twitter.com",
             "title":"o to Twitter",
             "target":"_blank" 
@@ -132,7 +100,6 @@
         "type":"text",
         "textContent":"Dribbble",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"https://dribbble.com/",
             "title":"Go to Dribbble",
             "target":"_blank" 
@@ -142,7 +109,6 @@
         "type":"text",
         "textContent":"Instagram",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"https://www.instagram.com",
             "title":"Go to Instagram",
             "target":"_blank" 
@@ -152,7 +118,6 @@
         "type":"text",
         "textContent":"Behance",
         "attrs":{
-            "class":"gray-text secondary-text-h secondary-font text-decoration-none",
             "href":"http://www.behance.com",
             "title":"Go to Behance",
             "target":"_blank" 
@@ -164,16 +129,10 @@
     },
     "footer-captcha-text":{
         "type":"text",
-        "textContent":"This site is protected by reCAPTCHA and the Google privacy policy and terms of service apply. You must not use this website if you disagree with any of these website standard terms and conditions.",
-        "attrs":{
-            "class":"flex-2 padding-right-4 sm-text secondary-font gray-text"
-        }
+        "textContent":"This site is protected by reCAPTCHA and the Google privacy policy and terms of service apply. You must not use this website if you disagree with any of these website standard terms and conditions."
     },
     "footer-copyRight-text":{
         "type":"text",
-        "textContent":"&copy; 2025 | Birthday Webiste Design",
-        "attrs":{
-            "class":"flex-1 sm-text gray-text text-right-d secondary-font"
-        }
+        "textContent":"&copy; 2025 | Birthday Webiste Design"
     }
 }

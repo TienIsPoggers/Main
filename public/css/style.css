@@ -1095,3 +1095,8 @@ header .header_nav{
         flex-direction: row-reverse;
     }
 }
+.main-section-10-item-info{
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
